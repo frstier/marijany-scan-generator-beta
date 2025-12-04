@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://USERNAME.github.io/REPO_NAME",
+  "homepage": "https://frstier.github.io/marijany-scan-generator-beta",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
