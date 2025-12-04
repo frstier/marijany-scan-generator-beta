@@ -350,7 +350,13 @@ const App: React.FC = () => {
       <header className="w-full shadow-md p-4 sticky top-0 z-20 no-print" style={{ backgroundColor: '#115740' }}>
         <div className="max-w-md mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
-            {/* Logo placeholder - Title removed */}
+            <div className="h-10 bg-white rounded-lg p-1 shadow-sm">
+               <img 
+                 src={LOGO_BASE64} 
+                 alt="Logo" 
+                 className="h-full w-auto object-contain"
+               />
+            </div>
           </div>
           <div className="flex gap-2">
             <button 
