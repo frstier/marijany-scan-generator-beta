@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // ВАЖЛИВО: Замініть 'REPO_NAME' на назву вашого репозиторію
-  base: '/REPO_NAME/',
+  base: '/marijany-scan-generator-beta/',
 })
